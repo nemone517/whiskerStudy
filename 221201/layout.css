@@ -1,0 +1,31 @@
+/*header*/
+#header{height: 60px; background-color: #ffe37c; text-align: center;}
+#header::after{content: "";display: block; clear: both;}
+#header #logo{float: left; height: 100%; background-color: #ff7f50;}
+#header #nav{display: inline-block; height: 100%;}
+#header #nav > ul{display: inline-block; height: 100%; margin: 0 -10px;}
+#header #nav > ul::after{content: ""; display: block; clear: both;}
+#header #nav > ul > li{float: left; height: 100%; padding: 0 10px;}
+#header #nav > ul > li > a{display: block; width: 120px; height: 100%; background-color: #ff9e7a;}
+#header .sitemap{float: right; height: 100%; padding:0 10px; border: none; background-color: #ffaa92;}
+
+
+/*main*/
+#main{padding: 80px; background-color: #4f6695;}
+#main #section01{margin-bottom: 40px;}
+#main #section01 .info{background-color: #acd; text-align: center;}
+
+#main #section02{width: 100%; max-width: 1000px; margin: 0 auto;}
+#main #section02 .quick-menu{margin: 0 -25px;}
+#main #section02 .quick-menu::after{content: ""; display: block; clear: both;}
+#main #section02 .quick-menu > li{float: left; width: 25%; padding: 0 25px; }
+#main #section02 .quick-menu > li > a{display: block; height: 150px; background-color: #add; text-align: center;}
+
+
+
+/*footer*/
+#footer{max-width: 1400px; padding: 20px; background-color: #272727;}
+#footer .footer-logo{display: inline-block; min-width: 120px; padding-right: 25px;}
+#footer .footer-info{display: inline-block;}
+#footer .footer-info > address{color: #fff;}
+#footer .footer-info > p{color: #fff;}
