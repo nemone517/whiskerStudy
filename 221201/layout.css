@@ -24,8 +24,9 @@
 
 
 /*footer*/
-#footer{max-width: 1400px; padding: 20px; background-color: #272727;}
-#footer .footer-logo{display: inline-block; min-width: 120px; padding-right: 25px;}
-#footer .footer-info{display: inline-block;}
-#footer .footer-info > address{color: #fff;}
-#footer .footer-info > p{color: #fff;}
+#footer{padding: 20px; background-color: #272727;}
+#footer .footer-wrap{max-width:1400px}
+#footer .footer-wrap .footer-logo{display: inline-block; min-width: 120px; padding-right: 25px;}
+#footer .footer-wrap .footer-info{display: inline-block;}
+#footer .footer-wrap .footer-info > address{color: #fff;}
+#footer .footer-wrap .footer-info > p{color: #fff;}
