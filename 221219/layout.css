@@ -1,0 +1,45 @@
+html,body{height: 100%;}
+#wrap{position:relative; min-height: 100%; background-image: url(image/bg.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;}
+#header{position: relative; height: 80px; text-align: center;}
+#header #logo{position: absolute; left: 20px; top:20px;}
+#header #logo > a{display: block; font-size: 32px; color:orange; font-weight: 700;}
+#header #nav{display: inline-block;}
+#header #nav .menu-list{}
+#header #nav .menu-list::after{content: ""; display: block; clear: both;}
+#header #nav .menu-list > li{float: left;}
+#header #nav .menu-list > li > a{display: block; line-height: 80px; padding:0 30px; font-size: 24px; font-weight: 700; color: #fff;}
+
+#header #sitemap{position: absolute; right: 20px; top:50%; margin-top: -15px;}
+#header #sitemap .sitemap-btn{display: block; position: relative; width: 30px; height: 30px;}
+#header #sitemap .sitemap-btn >span{display: block; position: absolute; left: 0; width: 100%; height: 2px; background-color: #ffffff;}
+#header #sitemap .sitemap-btn >span:first-child{top:0}
+#header #sitemap .sitemap-btn >span:nth-child(2){top:50%; margin-top: -1px;}
+#header #sitemap .sitemap-btn >span:last-child{bottom: 0;}
+
+.con-area{width: 1024px; margin: 0 auto;}
+.con-area::after{content: ""; display: block; clear: both;}
+
+#main{position: relative;}
+#main #section01{padding-top: 100px; text-align: center;}
+#main #section01 .info-box{display: inline-block;}
+#main #section01 .info-box .txt-01{margin-bottom: 15px; color: #fff; font-size: 20px; text-shadow: 1px 1px 2px #000;}
+#main #section01 .info-box > h2{margin-bottom: 15px; font-size: 25px; color: #fff; font-weight: 700;text-shadow: 1px 1px 2px #000;}
+#main #section01 .info-box .txt-02{margin-bottom: 15px; color: #fff; font-size: 16px;text-shadow: 1px 1px 2px #000;}
+
+#main{}
+#main #section02{margin-top: 100px;}
+#main #section02 .quick-menu{}
+#main #section02 .quick-menu::after{content: ""; display: block; clear: both;}
+#main #section02 .quick-menu > li{float: left; width: 25%; padding: 0 15px; }
+#main #section02 .quick-menu > li > a{display: block; height: 200px; padding-top: 20px; background-color: rgba(255,255,255,0.8); text-align: center;}
+#main #section02 .quick-menu > li > a > figure {margin-bottom: 15px; } 
+#main #section02 .quick-menu > li > a > figure > img{height: 80px;}
+#main #section02 .quick-menu > li > a > strong{display: block; margin-bottom: 10px; font-size: 20px;}
+#main #section02 .quick-menu > li > a > span{}
+
+#footer{position: absolute;left: 0; bottom: 0; width: 100%; background-color: #272727;}
+#footer .con-area{padding: 25px 0;}
+#footer .foot-logo{float: left; color: #ffffff; font-size: 25px;}
+#footer .foot-info{overflow: hidden; padding-left: 25px;}
+#footer .foot-info >address,
+#footer .copyright{color: #fff;}
